@@ -21,27 +21,27 @@ export function ContactForm() {
       animate='animate'
     >
       <div className="w-full md:w-1/2 lg:w-2/3">
-        <motion.div variants={fadeInUp}>
+        <motion.div className="mb-2" variants={fadeInUp}>
           <Input
             placeholder='Tu nombre'
             className='bg-white border-gray-300 w-full'
           />
         </motion.div>
-        <motion.div variants={fadeInUp}>
+        <motion.div className="mb-2" variants={fadeInUp}>
           <Input
             type='email'
             placeholder='Tu email'
             className='bg-white border-gray-300 w-full'
           />
         </motion.div>
-        <motion.div variants={fadeInUp}>
+        <motion.div className="mb-2" variants={fadeInUp}>
           <Textarea
             placeholder='Tu mensaje'
             className='bg-white border-gray-300 w-full'
           />
         </motion.div>
       </div>
-      <motion.div variants={fadeInUp}>
+      <motion.div  variants={fadeInUp}>
         <Button
           type='submit'
           className='bg-blue-500 text-white hover:bg-blue-600'
