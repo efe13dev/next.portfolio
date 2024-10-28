@@ -20,25 +20,27 @@ export function ContactForm() {
       initial='initial'
       animate='animate'
     >
-      <motion.div variants={fadeInUp}>
-        <Input
-          placeholder='Tu nombre'
-          className='bg-white border-gray-300'
-        />
-      </motion.div>
-      <motion.div variants={fadeInUp}>
-        <Input
-          type='email'
-          placeholder='Tu email'
-          className='bg-white border-gray-300'
-        />
-      </motion.div>
-      <motion.div variants={fadeInUp}>
-        <Textarea
-          placeholder='Tu mensaje'
-          className='bg-white border-gray-300'
-        />
-      </motion.div>
+      <div className="w-full md:w-1/2 lg:w-2/3">
+        <motion.div variants={fadeInUp}>
+          <Input
+            placeholder='Tu nombre'
+            className='bg-white border-gray-300 w-full'
+          />
+        </motion.div>
+        <motion.div variants={fadeInUp}>
+          <Input
+            type='email'
+            placeholder='Tu email'
+            className='bg-white border-gray-300 w-full'
+          />
+        </motion.div>
+        <motion.div variants={fadeInUp}>
+          <Textarea
+            placeholder='Tu mensaje'
+            className='bg-white border-gray-300 w-full'
+          />
+        </motion.div>
+      </div>
       <motion.div variants={fadeInUp}>
         <Button
           type='submit'
