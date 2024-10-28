@@ -1,7 +1,10 @@
 // Navigation.js
 import { Button } from '@/components/ui/button';
+import ActiveSectionContext from './ActiveSectionContext';
+import { useContext } from 'react';
 
-export function Navigation({ activeSection, scrollToSection }) {
+export function Navigation({ scrollToSection }) {
+  const { activeSection } = useContext(ActiveSectionContext);
   return (
     <header className='bg-white bg-opacity-90 backdrop-blur-sm shadow-sm relative z-10'>
       <nav className='container mx-auto p-4'>
