@@ -1,0 +1,102 @@
+
+# 2024-10-28 16:33:27.183581
++y
+
+# 2024-10-28 16:34:03.111625
++n
+
+# 2024-10-28 16:34:26.438660
++hola
+
+# 2024-10-28 16:34:43.490183
++/add esl
+
+# 2024-10-28 16:34:52.185193
++n
+
+# 2024-10-28 16:34:57.627694
++/add .eslintrc.json
+
+# 2024-10-28 16:35:06.397205
++como ves este archivo
+
+# 2024-10-28 16:35:24.363729
++n
+
+# 2024-10-28 16:35:36.608237
++ves algun error en el eslint.json?
+
+# 2024-10-28 16:35:53.805763
++n
+
+# 2024-10-28 16:35:58.703774
++clear
+
+# 2024-10-28 16:36:26.336304
++/clear
+
+# 2024-10-28 16:37:24.815868
++/add src\app\page.js
+
+# 2024-10-28 17:18:23.665864
++y
+
+# 2024-10-28 17:18:33.350875
++hola
+
+# 2024-10-28 17:19:03.481914
++/add src\app\page.js
+
+# 2024-10-28 17:19:15.249424
++analiza el fichero y dime que mejorarias
+
+# 2024-10-28 17:19:43.034461
++si
+
+# 2024-10-28 17:20:23.006014
++y
+
+# 2024-10-28 17:21:10.816072
++/add src\components\Navigation.js
+
+# 2024-10-28 17:21:16.835573
++y
+
+# 2024-10-28 17:21:26.272082
++/run npm run dev
+
+# 2024-10-28 17:23:48.158254
++puedes modificar el componente contactform parar auq elos inputs no ocupen el 100% del ancho?
+
+# 2024-10-28 17:24:00.041765
++y
+
+# 2024-10-28 17:24:28.169299
++/run npm run dev
+
+# 2024-10-28 17:25:05.071837
++como es el comando para quitarte archivos 
+
+# 2024-10-28 17:25:16.106350
++n
+
+# 2024-10-28 17:25:42.962389
++me refiero a que con /add te agrego un archivo al contexto, pero como lo saco del contexto de aider
+
+# 2024-10-28 17:26:31.764451
++/drop src\app\page.js
+
+# 2024-10-28 17:27:11.205996
++/drop *
+
+# 2024-10-28 17:27:23.411004
++/clear
+
+# 2024-10-28 17:27:58.302051
++/add src\components\ContactForm.js
+
+# 2024-10-28 17:28:16.581560
++deja una separacion entre los inputs del formulario
+
+# 2024-10-28 17:30:30.839920
++/exit
